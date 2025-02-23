@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 int main() {
-    char jawaban; //aku keren
+    char jawaban; //aku keren banget
     
-    printf("Selamat datang di quiz pilihan ganfda!\n");
+    printf("Selamat datang di quiz pilihan ganfda!\n"); // asiap
     printf("Pertanyaan 1: Berapa hasil dari 5 + 3?\n");
     printf("1. 6\n2. 7\n3. 8\n");
     printf("Masukkan pilihan Anda (1-3): ");
