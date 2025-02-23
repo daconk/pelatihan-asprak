@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    char jawaban;
+    char jawaban; //aku keren
     
     printf("Selamat datang di quiz pilihan ganfda!\n");
     printf("Pertanyaan 1: Berapa hasil dari 5 + 3?\n");
