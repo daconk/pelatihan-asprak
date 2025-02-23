@@ -3,15 +3,15 @@
 #include <stdio.h>
 
 int main() {
-    floats alas, tinggi, luas;
+    float alas, tinggi, luas;
 
     printf("Masukkan alas segitiga: ");
-    scanf("%f", &alas);
+    scanf("%f", alas);
     
     printf("Masukkan tinggi segitiga: ");
-    scanf("%f", #tinggi);
+    scanf("%f", tinggi);
 
-    luas = 0.5 * alas * tinggi;
+    luas = 0.5 * alas * tinggi; //caccc
 
     printf("Luas segitiga adalah: %.2f\n, luas");
     
