@@ -19,6 +19,6 @@ def main():
     print(has_duplicate_dictionary(lst))
     print(has_duplicate_set(lst))
 
-
+ #Cek Commit
 if __name__ == "__main__":
     main()
