@@ -4,21 +4,31 @@ def has_duplicate_dictionary(lst):
     # sering item tersebut muncul di list
     frequency = {}
     for item in lst:
-        pass
+        if item in frequency:
+            frequency[item] += 1
+            return True  # Menemukan duplikat
+        else:
+            frequency[item] = 1
+    return False  # Tidak ada duplikat
 
 
 def has_duplicate_set(lst):
     # set ini berisi item yang sudah pernah dilihat dalam lst
     seen = set()
     for item in lst:
-        pass
+        if item in seen:
+            return True  # Menemukan duplikat
+        else:
+            seen.add(item)
+    return False  # Tidak ada duplikat
 
 
 def main():
     lst = [1, 2, 3, 4, 5, 6, 7, 7]
-    print(has_duplicate_dictionary(lst))
-    print(has_duplicate_set(lst))
+    print("Menggunakan metode dictionary:", has_duplicate_dictionary(lst))
+    print("Menggunakan metode set:", has_duplicate_set(lst))
 
- #Cek Commit
+
+# Cek Commit
 if __name__ == "__main__":
     main()
