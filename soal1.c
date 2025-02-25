@@ -11,7 +11,7 @@ int main() {
     printf("Masukkan tinggi segitiga: ");
     scanf("%f", &tinggi);
 
-    luas = 0.5 * alas * tinggi; //coklat goreng
+    luas = 0.5 * alas * tinggi; 
 
     printf("Luas segitiga adalah: %.2f\n", luas);
     
